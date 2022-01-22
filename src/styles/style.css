@@ -1,0 +1,44 @@
+@import 'reset.css';
+
+body{
+    background: rgb(134, 255, 184);
+}
+.container {
+    margin: 0 auto;
+    width: 820px;
+}
+.main{
+    background: linear-gradient(rgb(255, 227, 134), rgb(203, 255, 134), rgb(134, 255, 184));
+}
+.main__content{
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(236, 97, 72);
+}
+.main__title{
+    margin: 100px 0 50px 0;
+}
+.main__input{
+    width: 50%;
+    color: rgb(236, 97, 72);
+}
+.main__btn{
+    margin: 50px 0 0 0;
+    background: rgb(206, 236, 72);
+    padding: 10px 50px;
+    width: 50%;
+    color: rgb(138, 57, 43);
+}
+.main__btn:hover{
+    color: #fff;
+}
+.main__input::placeholder{
+    color: rgb(236, 97, 72);
+}
+.main__result{
+    margin: 50px 0;
+}
